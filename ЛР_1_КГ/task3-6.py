@@ -64,11 +64,6 @@ for face in list_f:
     draw_line_dy(img_mat, x1,y1,x2,y2, (255, 117, 20))
     draw_line_dy(img_mat, x0,y0,x2,y2, (255, 117, 20))
 
-
-
-
-
-
 img = Image.fromarray(img_mat, mode='RGB')
 img = ImageOps.flip(img)
 img.save('img3.png')
